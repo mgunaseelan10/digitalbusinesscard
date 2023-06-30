@@ -1,0 +1,71 @@
+html{
+    background: snow;
+    
+}
+
+h1{
+    text-align: center;
+    color: salmon;
+    border: 5px solid salmon;
+    border-style: double;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 400px fit-content;
+}
+
+body{
+    margin: 200px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1{
+    display: flex;
+    justify-content:space-around;
+    margin: 0px auto;
+    padding: 40px;
+    background: lightsalmon;
+    border-bottom: 5px solid yellow;
+    border-left: 5px solid yellow;
+    border-radius: 30px;
+    width: 400px;
+}
+
+.card2{
+    transform: rotateX('360deg');
+    display: flex;
+    justify-content:space-around;
+    margin: 0px auto;
+    padding: 40px;
+    background: lightsalmon;
+    border-bottom: 5px solid lightseagreen;
+    border-left: 5px solid lightseagreen;
+    border-radius: 30px;
+    width: 400px;
+}
+
+.Avatar{
+    width: 150px;
+    border-radius: 30px;
+    border-bottom: 5px solid salmon;
+    margin: 10px;
+    
+}
+
+.details{
+    background: lemonchiffon;
+    border-radius: 25px;
+    color: lightsalmon;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 5px solid salmon;
+    margin: 10px;
+
+}
+
+
+
